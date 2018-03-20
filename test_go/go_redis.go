@@ -1,6 +1,8 @@
 package main
 
-import ("github.com/go-redis/redis")
+import (
+	"github.com/go-redis/redis"
+)
 
 
 func ExampleNewClient() {
